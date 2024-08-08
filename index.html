@@ -298,7 +298,7 @@ src: url("./fonts/Avenir_Book.ttf");
                 </td>
               <td align="center" width="250px">
                     <center>
-                        <span style="font-size:18px"><sup>2</sup>KempnerInstitute for the Study of Natural and Artificial Intelligence</span>
+                      <span style="font-size:18px"><sup>2</sup><a href="https://kempnerinstitute.harvard.edu">Kempner Institute for the Study of Natural and Artificial Intelligence</a></span>
                     </center>
                 </td>
                 <td align="center" width="50px">
@@ -312,11 +312,13 @@ src: url("./fonts/Avenir_Book.ttf");
     <table align="center" width="700px">
         <tbody>
             <tr>
-                <td align="center" width="200px">
+                				<td align="center" width="200px">
 					<center>
 						<br>
-						<a href="https://arxiv.org/abs/2405.16642" target="_blank" class="link-pill">
-							<i style="padding-right:2px; font-size:23px" class="ai ai-arxiv" aria-hidden="true"></i> ArXiv
+						<a href="https://colab.research.google.com/drive/1c5OxMa5fiSVnl5w6J7flrjNUteUkp6BV?usp=sharing" target="_blank" class="link-pill">
+							<img style="padding-bottom:3px;padding-right:2px;height:18px" src="assets/images.png" aria-hidden="true">
+							Slides
+
 						</a>
 						<br>
 					</center>
@@ -338,8 +340,8 @@ src: url("./fonts/Avenir_Book.ttf");
 					<center>
 						<br>
 						<a href="https://colab.research.google.com/drive/1c5OxMa5fiSVnl5w6J7flrjNUteUkp6BV?usp=sharing" target="_blank" class="link-pill">
-							<img style="padding-bottom:3px;padding-right:2px;height:18px" src="assets/colab.png" aria-hidden="true">
-							Colab
+							<img style="padding-bottom:3px;padding-right:2px;height:18px" src="assets/pdf.png" aria-hidden="true">
+							Poster
 
 						</a>
 						<br>
@@ -358,37 +360,36 @@ src: url("./fonts/Avenir_Book.ttf");
         <h2>
         <strong> Abstract </strong> </h2>
     </center>
-	<p>
-	      In progress.
-          </left>
-
-	</p>
-    <p>
-    </p>
+	<p> Humans have the remarkable ability to visually detect agents: other humans, animals, robots, and even two-dimensional animated characters. Unfortunately, current visual artificial intelligence (AI) models lack this ability, requiring AI agents operating in multi-agent environments to be hard-coded with explicit information about the other agents, their goals, and their actions. <em>What if details about other agents weren't explicitly given to agents?</em> <em>How would they, using visual observations, learn to identify other agents, just like humans?</em>&nbsp;</p>
+	<p>&nbsp;We explore these questions through visual object-centric attention mechanisms and two auxiliary tasks: <strong>state prediction</strong> and <strong>policy prediction</strong>. Visual object-centric attention allows us to get latent representations of dynamic objects. Using these latent representations, we would like to see if we can distinguish between moving and static objects and agents, including objects that have goal-directed behavior, through auxiliary prediction tasks. These tasks may include state-prediction tasks like asking  “What happens next in the scene?” or policy prediction tasks asking “What action did the object take next?”  We hypothesize that policy prediction, not state prediction, will drive emergent agentic representations from the visual scene and can be used to predict agent properties such as goals, policies, tool usage, and rewards.</p>
+<p>
+</p>
 <br>
 
     <hr>
     <center>
-        <h2> Humans have the reamarkable ability to detect other agents.&nbsp;&nbsp;</h2>
+        <h2> Humans have the reamarkable ability to detect other agents, <em>even in geometery.</em>&nbsp;&nbsp;</h2>
+		<center>
+		<img class="rounded" src="./assets/simmel.gif" width="500px">
+		</center>
     </center>
     <br/>
 
-    <p>
-    In progress.</p>
-	<br />
+
+<br />
 	<div style="text-align: center;"> </div>
 	<br />
 	
     <hr>
 	<center>
-        <h2> What about computer vision?</h2>
-    </center>
+        <h2> How can we segement agents? <strong>Task 1: State Prediction</strong></h2>
+	  <img class="rounded" src="./assets/state_dynamics.png" style="width: 600px; display: inline-block;">
+</center>
 			
     <br />
-	<p>
-In progress. </p>
+<p>
+</p>
 
-   
 	
     <br />
 <center>
@@ -397,26 +398,43 @@ In progress. </p>
     <hr>
 	<center>
         <h2>We can learn <em>structural </em>representations</h2>
+		<div style="text-align: center;">
+	  <img class="rounded" src="./assets/mpe_state.gif" style="width: 460px; display: inline-block;">
+	  <img class="rounded" src="./assets/single_state.gif" style="width: 395px; display: inline-block;">
+	</div>
     </center>
-	<p>&nbsp;In progress.</p>
+	<p>&nbsp;</p>
     <br />
     <hr>
     <center>
         <h2> What about <em>agent</em> representations?</h2>
-    </center>
+		<img class="rounded" src="./assets/agent_reps.png" style="width: 860px; display: inline-block;">
+</center>
 
    
 
     <hr>
     <center>
-        <h2> Acknowledgements </h2>
+        <h2> What's next? <strong>Task 2: Policy Prediction</strong></h2>
+	  <img class="rounded" src="./assets/policy_prediction.png" style="width: 660px; display: inline-block;">
     </center>
-    <p>In progress. 
-<br>
+    <p>
 
         <br><br>
     </p>
     <br>
+	<hr>
+    <center>
+      <h2> Acknowledgements</h2>
+		<p>
+			This work is funded by KURE and KRANIUM at The Kempner Institute for the Study of Natural and Artificial Intelligence at Harvard University. 
+		</p>
+		
+</center>
+
+   
+
+    <hr>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70157890-3"></script>
